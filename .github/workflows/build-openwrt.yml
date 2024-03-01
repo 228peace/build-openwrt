@@ -26,7 +26,7 @@ env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: v23.05.2
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: ipq806x.config
+  CONFIG_FILE: rt4230w.config
   CUSTOM_SH: custom.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
