@@ -23,10 +23,11 @@ mv openclash/luci-app-openclash package/luci-app-openclash && rm -rf openclash
 # adguardhome packages
 git clone --depth=1 -b master https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 
-# freeze device access
+# freeze device packages
 #git clone --depth=1 -b main https://github.com/kingyond/luci-app-accesscontrol-plus accesscontrol-plus
 #mv accesscontrol-plus/luci-app-accesscontrol-plus  package/luci-app-accesscontrol-plus && rm -rf accesscontrol-plus
 
+# zerotier packages
 git clone --depth=1 -b master https://github.com/rufengsuixing/luci-app-zerotier package/luci-app-zerotier
 
 # update golang
