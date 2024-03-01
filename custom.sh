@@ -20,6 +20,7 @@ sed -i 's/192.168.1.1/192.168.33.1/g' package/base-files/files/bin/config_genera
 git clone --depth=1 -b master https://github.com/vernesong/OpenClash.git openclash
 mv openclash/luci-app-openclash package/luci-app-openclash && rm -rf openclash
 
+# adguardhome packages
 git clone --depth=1 -b master https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 
 # freeze device access
