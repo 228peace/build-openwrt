@@ -27,6 +27,10 @@ git clone --depth=1 -b master https://github.com/rufengsuixing/luci-app-adguardh
 #git clone --depth=1 -b main https://github.com/kingyond/luci-app-accesscontrol-plus accesscontrol-plus
 #mv accesscontrol-plus/luci-app-accesscontrol-plus  package/luci-app-accesscontrol-plus && rm -rf accesscontrol-plus
 
+
+git clone --depth=1 -b master https://github.com/x-wrt/com.x-wrt.git x-wrt
+mv x-wrt/luci-app-fakemesh package/luci-app-fakemesh && rm -rf x-wrt
+
 # zerotier packages
 git clone --depth=1 -b master https://github.com/rufengsuixing/luci-app-zerotier package/luci-app-zerotier
 
